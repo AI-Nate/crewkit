@@ -1,5 +1,7 @@
 # crewkit
 
+![crewkit — run a one-person company as a crew of AI agents, not a coding squad](docs/images/crewkit-card.png)
+
 > **Run a one-person company as a crew of AI agents — with an invisible seam.**
 > **一个人,像带一支团队一样带一群 AI agent——而人只看到结果,看不到接缝。**
 
