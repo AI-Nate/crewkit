@@ -60,7 +60,7 @@ crewkit is the set of files and rules that fix exactly these three.
 | `templates/SOUL.template.md` | Defines a role's **behavior**: voice, taste, working principles. |
 | `templates/ROSTER.template.md` | The one-page map of who owns what — the crew's org chart. |
 | `examples/solo-founder-crew/` | A full fictional crew for a one-person company: roster + a worked role + a worked handoff. |
-| `docs/` | Per-harness setup: Claude Code · a multi-channel runtime · any markdown agent. |
+| `docs/` | Per-harness setup: Claude Code · Codex CLI · a multi-channel runtime · any markdown agent. |
 
 ## Quickstart (≤5 min) / 快速开始
 
@@ -85,6 +85,7 @@ roles from templates/. Start by asking me what the two roles should own.
 4. Copy `templates/ROSTER.template.md` → `ROSTER.md` at the top and list who owns what.
 5. Tell each agent to **read IDENTITY.md, SOUL.md, and CROSS-AGENT.md at session
    start.** Per-harness wiring: [`docs/setup-claude-code.md`](docs/setup-claude-code.md) ·
+   [`docs/setup-codex.md`](docs/setup-codex.md) ·
    [`docs/setup-multichannel-runtime.md`](docs/setup-multichannel-runtime.md) ·
    [`docs/setup-any-agent.md`](docs/setup-any-agent.md).
 
@@ -170,14 +171,25 @@ real crew — a one-person company run as a team of specialized agents that ship
 content, run growth, and build products without the founder relaying between them.
 The runtime is ours; **the operating pattern is yours, MIT.**
 
-Want the full walkthrough — how the crew is wired end-to-end, and the live cohort
-where we build agent crews together? → **[ai-nate.com](https://ai-nate.com)** ·
-**[course-ai.app](https://course-ai.app)**
-
 crewkit 是 **[AI Nate](https://ai-nate.com)** 真实 crew 背后那层操作规范的提炼与脱敏版——
 一个「一人公司」当团队来带,一群专职 agent 各管一摊,发内容、跑增长、做产品,而创始人不用在
-它们之间来回传话。运行时是我们的;**这套操作规范是你的,MIT。** 想看完整拆解和我们一起搭
-crew 的直播 cohort → **[ai-nate.com](https://ai-nate.com)**。
+它们之间来回传话。运行时是我们的;**这套操作规范是你的,MIT。**
+
+## Learn to build this — join AI Superpower / 加入 AI 超能力社区
+
+Templates get you started; **building it well is a craft you learn faster with
+people already doing it.** **AI Superpower** is our community for learning and
+building with AI — from your first two roles to running a whole company as a crew.
+Join builders sharing what actually works, get the full walkthrough of how a real
+crew is wired end-to-end, and build alongside a live cohort.
+
+**→ Join AI Superpower: [course-ai.app](https://course-ai.app/)**
+
+模板只是起点,**真正把它搭好是一门手艺——和已经在做的人一起学会更快。** **AI Superpower**
+是我们一起用 AI 学习和搭建的社区:从你的头两个角色,到把一整家公司当一支 crew 来跑。加入一群
+在分享「什么真的管用」的 builder,看一套真实 crew 从头到尾怎么接线,并跟着直播 cohort 一起搭。
+
+**→ 加入 AI Superpower:[course-ai.app](https://course-ai.app/)**
 
 ## License
 
@@ -187,3 +199,5 @@ crew 的直播 cohort → **[ai-nate.com](https://ai-nate.com)**。
 
 *Built by running it on a real one-person company first. The example crew here is
 fictional; the structure is exactly what runs in production.*
+
+*Learning to build with AI? Come build with us → **[AI Superpower · course-ai.app](https://course-ai.app/)***
