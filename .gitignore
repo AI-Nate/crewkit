@@ -1,0 +1,21 @@
+# Never commit a live, filled-in crew — it contains YOUR real strategy,
+# clients, and workspace state. The repo ships TEMPLATES and a fictional
+# example crew; your instantiated roles stay local.
+/crew/
+/workspace/
+*.local.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Env & secrets (defense in depth — this repo needs none of these)
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
