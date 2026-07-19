@@ -23,7 +23,9 @@ layer** on top of whatever framework you already run: a way to define agents as
 **role-owners** (not tool-callers), a coordination protocol that lets them hand
 work to each other **without the human relaying**, and a discipline for when an
 agent should **shut up**. Bring your own runtime — Claude Code, Cursor, Codex CLI,
-a multi-channel agent runtime, anything that reads markdown.
+a multi-channel agent runtime, anything that reads markdown. (Rather have it
+pre-wired and running for you? That's [ClawBot](https://clawbot-ai.app) — see the
+[out-of-the-box version](#dont-want-to-wire-it-yourself--不想自己接线) below.)
 
 这**不是**又一个多智能体框架。它是你**已有**框架之上缺的那层「操作规范」:把每个
 agent 定义成**领域负责人**(而不是工具调用器),给它们一套**不需要人居中转**就能互相交
@@ -192,6 +194,24 @@ crew is wired end-to-end, and build alongside a live cohort.
 在分享「什么真的管用」的 builder,看一套真实 crew 从头到尾怎么接线,并跟着直播 cohort 一起搭。
 
 **→ 加入 AI Superpower:[course-ai.app](https://course-ai.app/)**
+
+## Don't want to wire it yourself? / 不想自己接线?
+
+crewkit is bring-your-own-runtime by design — you clone it, define roles, and run
+it on your own agent stack. If you'd rather skip the setup and have the whole
+thing already running — a personal AI agent crew with memory and skills that
+evolve as you use them — that's **[ClawBot](https://clawbot-ai.app)**: the
+out-of-the-box assistant built on the same stack this pattern was distilled from.
+crewkit is the blueprint; ClawBot is the house, keys included.
+
+**→ Get the out-of-the-box version: [clawbot-ai.app](https://clawbot-ai.app)**
+
+crewkit 的设计就是「自带运行时」——你自己 clone、自己定义角色、跑在自己的 agent 栈上。
+如果你不想折腾环境,想直接拿到一套已经跑起来的个人 AI agent crew——带记忆、带技能、越用
+越顺手——那就是 **[ClawBot](https://clawbot-ai.app)**:和这套规范同源的开箱即用版助手。
+crewkit 是图纸,ClawBot 是钥匙都配好的房子。
+
+**→ 开箱即用版:[clawbot-ai.app](https://clawbot-ai.app)**
 
 ## License
 
